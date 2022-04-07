@@ -1,0 +1,85 @@
+main{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 300px;
+    grid-template-areas: "a b c" "d e e";
+    width: 1200px;
+    /* background-color: rgba(137, 43, 226, 0.568); */
+    color: white;
+    /* border: 3px solid red; */
+    border-radius: 25%;
+  
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DFE2FF;
+    font-family: "Fredoka", sans-serif;
+}
+
+/* main{
+    width: 1200px;
+    background-color: rgba(137, 43, 226, 0.568);
+    color: white;
+    border: 3px solid red;
+    border-radius: 25%;
+} */
+
+.grid-item {
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    
+  }
+.grid-item1{
+    background-color: rgba(255, 166, 0, 0.534);
+    padding: 100px;
+    grid-area: a;
+}
+
+input{
+    background-color: rgba(255, 166, 0, 0.281);
+    color: white;
+    height: 30px;
+}
+.grid-item2{
+    background-color: rgba(255, 68, 0, 0.568);
+    padding: 100px;
+    grid-area: b;
+
+
+}
+.grid-item3{
+        background-color: rgba(255, 166, 0, 0.699);
+        padding: 100px;
+        grid-area: c;
+
+}
+.grid-item4{
+    background-color: rgba(255, 255, 0, 0.671);
+    padding: 100px;
+    color: black;
+    grid-area: d;
+
+}
+.grid-item5{
+     background-color: black;
+     color: white;
+     padding: 30px;
+     grid-area: e;
+
+}
+.header{
+      font-size: x-large;
+}
+button{
+    height: 35px;
+}
+.grid-item6{
+    background-color: black;
+    color: white;
+}
+  
